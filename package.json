@@ -1,0 +1,32 @@
+{
+  "name": "libmathjs",
+  "version": "1.0.0",
+  "description": "Mathematics library that can solve and parse expressions.",
+  "main": "index.js",
+  "scripts": {
+    "test": "tap test/*.js",
+    "test-simple": "tap test/simple.js",
+    "test-functions": "tap test/functions.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Tarik02/libmathjs.git"
+  },
+  "keywords": [
+    "math",
+    "solve",
+    "expressions"
+  ],
+  "author": "Tarik02",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/Tarik02/libmathjs/issues"
+  },
+  "homepage": "https://github.com/Tarik02/libmathjs#readme",
+  "devDependencies": {
+    "tap": "^10.0.0"
+  },
+  "dependencies": {
+    "decimal.js": "^7.2.1"
+  }
+}
